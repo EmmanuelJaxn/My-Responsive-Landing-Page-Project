@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  min-height: 100%;
+}
+
+  body{
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+  }
+
+
+header{
+
+  height: 100%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(10, 70, 37);
+}
+
+
+nav {
+  width: 100%;
+  margin-top: 40px;
+  background-color: azure;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav li{
+  min-height: 50px;
+}
+
+nav a{
+  height: 100%;
+  margin: 0 30px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  color: rgb(10, 70, 37);
+}
+
+nav a:hover{
+  color: #65a4f7;
+}
+
+
+.header-banner{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.logo{
+  max-width: 15%;
+ 
+}
+
+h1{
+  
+  color: white;
+  font-style: italic;
+  font-size: 65px;
+  padding-left: 90px;
+}
+
+
+
+section{
+  margin-top: 100px;
+ }
+
+.product-intro{
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+.container-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 350px;
+  border: solid 8px;
+  border-color: rgb(10, 70, 37);
+  border-radius: 25px;
+}
+
+.register-button {
+  font-size: 48px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(10, 70, 37);
+  color: rgb(255, 255, 255);
+  width: 350px;
+  height: 100px;
+  border: none;
+  border-radius: 25px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.feature-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  background-color: rgb(10, 70, 37);
+  margin-bottom: 50px;
+  margin-top: 100px;
+  padding: 24px;
+}
+
+.cycling, .swimming, .skiing{
+  justify-content: center;
+  width: 150px;
+ }
+
+.cyclist, .swimmer, .skier{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: solid 4px;
+  border-color: rgb(10, 70, 37);
+
+}
+
+
+h2{
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.product-description{
+  display: flex;
+  justify-content: center;
+  color: white
+}
+
+
+footer{
+  background-color: rgb(10, 70, 37);
+  height: 250px;
+}
+
+h3{
+  padding: 35px;
+  text-align: center;
+  color: white; 
+}
+
+p{
+  color: white;
+  line-height: 24px;
+  justify-content: center;
+}
+
+
+.contact-details{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+footer p a{
+  text-decoration: none;
+  color: white;
+}
